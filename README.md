@@ -176,9 +176,7 @@ agent_01   20000ts | mean rew: 0.07 | best rew: 0.07 | acc:  0.00 | best acc:  0
 agent_01   30000ts | mean rew: 0.10 | best rew: 0.10 | acc:  0.00 | best acc:  0.00 | stag: 15
 agent_01   40000ts | mean rew: 0.14 | best rew: 0.14 | acc:  0.00 | best acc:  0.00 | stag: 15
 agent_01   50000ts | mean rew: 0.20 | best rew: 0.20 | acc:  0.00 | best acc:  0.00 | stag: 15
-.
-.
-.
+. . .
 agent_01  820000ts | mean rew: 1.08 | best rew: 1.39 | acc: 33.00 | best acc: 55.00 | stag:  5
 agent_01  830000ts | mean rew: 1.31 | best rew: 1.39 | acc: 50.00 | best acc: 55.00 | stag:  4
 agent_01  840000ts | mean rew: 1.32 | best rew: 1.39 | acc: 50.00 | best acc: 55.00 | stag:  3
@@ -191,9 +189,7 @@ agent_02   20000ts | mean rew: 0.07 | best rew: 0.07 | acc:  0.00 | best acc:  0
 agent_02   30000ts | mean rew: 0.10 | best rew: 0.10 | acc:  0.00 | best acc:  0.00 | stag: 15
 agent_02   40000ts | mean rew: 0.11 | best rew: 0.11 | acc:  0.00 | best acc:  0.00 | stag: 15
 agent_02   50000ts | mean rew: 0.11 | best rew: 0.11 | acc:  0.00 | best acc:  0.00 | stag: 15
-.
-.
-.
+. . .
 agent_02  760000ts | mean rew: 1.52 | best rew: 1.82 | acc: 68.00 | best acc: 88.00 | stag:  5
 agent_02  770000ts | mean rew: 1.70 | best rew: 1.82 | acc: 80.00 | best acc: 88.00 | stag:  4
 agent_02  780000ts | mean rew: 1.71 | best rew: 1.82 | acc: 81.00 | best acc: 88.00 | stag:  3
