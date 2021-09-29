@@ -198,7 +198,7 @@ agent_02  800000ts | mean rew: 1.74 | best rew: 1.82 | acc: 83.00 | best acc: 88
 agent_02 has been trained.
 
 All agents have been trained
-``` -->
+```
 
 ### test.py
 
