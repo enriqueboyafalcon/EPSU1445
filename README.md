@@ -40,7 +40,7 @@
       <ul>
         <li><a href="#train">train</a></li>
         <li><a href="#test">test</a></li>
-        <li><a href="#evaluatey">evaluate</a></li>
+        <li><a href="#evaluate">evaluate</a></li>
         <li><a href="#sort">sort</a></li>
         <li><a href="#plot">plot</a></li>
         <li><a href="#results">results</a></li>
