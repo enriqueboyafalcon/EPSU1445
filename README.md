@@ -20,7 +20,7 @@
 
 
 <!-- TABLE OF CONTENTS -->
-<details open="open">
+<!-- <details open="open"> -->
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
     <li>
@@ -47,7 +47,7 @@
       </ul>
     <li><a href="#contact">Contact</a></li>
   </ol>
-</details>
+<!-- </details> -->
 
 
 
