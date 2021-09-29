@@ -195,7 +195,7 @@ The script [sort.py](Code/sort.py) generates a copy the of output of evaluate.py
 
 The script [plot.py](Code/plot.py) generates a series of graphs that visualize the output of evaluate.py and the logs from the training process.
 
-![Penalti PPO Training logs](https://github.com/enriqueboyafalcon/EPSU1445/blob/master/Data/Graphs/plotall%2Bminmaxavg%20Penalty%20PPO%20scoring.pdf)
+![Penalti PPO Training logs](https://github.com/enriqueboyafalcon/EPSU1445/Data/Graphs/plotall%2Bminmaxavg%20Penalty%20PPO%20scoring.png)
 
 ### results.py
 
