@@ -1,0 +1,96 @@
+Penalty
+
+A2C:	Mean=0.095	Variance=0.01
+DQN:	Mean=0.48	Variance=0.086
+PPO:	Mean=0.81	Variance=6.33e-03
+
+Shapiro-Wilk Normality test
+	A2C
+	Statistics=0.76, p=1.27e-05
+	-> Probably not gaussian
+
+	DQN
+	Statistics=0.88, p=2.40e-03
+	-> Probably not gaussian
+
+	PPO
+	Statistics=0.92, p=0.029
+	-> Probably not gaussian
+
+Bartlett’s test for equal variances
+	Statistics=56.68, p=4.91e-13
+	-> Probably different variances
+
+Kruskal-Wallis H-test
+	Statistics=55.65, p=8.25e-13
+	-> Probably different distributions
+
+Mann-Whitney U Test
+	A2C - DQN
+	Statistics=176.50, p=2.71e-05
+	-> Probably different distributions
+	DQN - PPO
+	Statistics=117.50, p=4.58e-07
+	-> Probably different distributions
+	A2C - PPO
+	Statistics=0.00e+00, p=1.50e-11
+	-> Probably different distributions
+
+Median comparison
+	A2C 6.35
+	DQN 54.85
+	PPO 80.75
+
+-------------------------------------------
+
+Counterattack
+
+scoring:	Mean=0.2	Variance=0.083
+checkpoint:	Mean=0.29	Variance=0.06
+
+Shapiro-Wilk Normality test
+	Scoring
+	Statistics=0.72, p=3.06e-06
+	-> Probably not gaussian
+
+	Checkpoint
+	Statistics=0.74, p=6.20e-06
+	-> Probably not gaussian
+
+Bartlett’s test for equal variances
+	Statistics=0.76, p=0.38
+	-> Probably equal variances
+
+Mann-Whitney U Test
+	Scoring - Checkpoint
+	Statistics=300.50, p=0.013
+	-> Probably different distributions
+
+Median comparison
+	Scoring 0.00
+	Checkpoint 21.15
+
+-------------------------------------------
+
+Iniesta
+
+scoring:	Mean=0.042	Variance=2.29e-03
+checkpoint:	Mean=0.077	Variance=0.014
+
+Shapiro-Wilk Normality test
+	Scoring
+	Statistics=0.8, p=5.51e-05
+	-> Probably not gaussian
+
+	Checkpoint
+	Statistics=0.66, p=4.94e-07
+	-> Probably not gaussian
+
+Bartlett’s test for equal variances
+	Statistics=20.09, p=7.39e-06
+	-> Probably different variances
+
+Mann-Whitney U Test
+	Scoring - Checkpoint
+	Statistics=421.50, p=0.34
+	-> Probably the same distribution
