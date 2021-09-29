@@ -39,11 +39,11 @@
     <li><a href="#usage">Usage</a></li>
       <ul>
         <li><a href="#train">train</a></li>
-        <li><a href="#test.py">test.py</a></li>
-        <li><a href="#evaluate.py">evaluate.py</a></li>
-        <li><a href="#sort.py">sort.py</a></li>
-        <li><a href="#plot.py">plot.py</a></li>
-        <li><a href="#results.py">results.py</a></li>
+        <li><a href="#test">test</a></li>
+        <li><a href="#evaluatey">evaluate</a></li>
+        <li><a href="#sort">sort</a></li>
+        <li><a href="#plot">plot</a></li>
+        <li><a href="#results">results</a></li>
       </ul>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -208,7 +208,7 @@ agent_02 has been trained.
 All agents have been trained
 ```
 
-### test.py
+### test
 
 The script [test.py](Code/test.py) loads a given trained model and runs it for the desired ammount of episodes, with or without rendering. 
 
@@ -220,21 +220,21 @@ python3.7 test.py -p Data/Models/MyScenarios_Penalty\ PPO\ scoring\ 01.zip -e 10
 
 Use -h to see option list.
 
-### evaluate.py
+### evaluate
 
 The script [evaluate.py](Code/evaluate.py) loads trained models 1-30 of a specific scenario and writes down their accuracies after 1000 episodes. Output is a csv file, stored in Data/Results.
 
-### sort.py
+### sort
 
 The script [sort.py](Code/sort.py) generates a copy the of output of evaluate.py where the values are ordered, for better readability and easier interpretation.
 
-### plot.py
+### plot
 
 The script [plot.py](Code/plot.py) generates a series of graphs that visualize the output of evaluate.py and the logs from the training process. For example:
 
 ![Penalti PPO Training logs](https://github.com/enriqueboyafalcon/EPSU1445/blob/master/Data/Graphs/plotall%2Bminmaxavg%20Penalty%20PPO%20scoring.png)
 
-### results.py
+### results
 
 The script [results.py](Code/results.py) performs a series of statistical tests in order to formally compare and draw conclusions from the output of evaluate.py.
 
