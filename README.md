@@ -38,11 +38,11 @@
     </li>
     <li><a href="#usage">Usage</a></li>
       <ul>
-        <li><a href="#train.py">train.py</a></li>
+        <li><a href="#train">train</a></li>
         <li><a href="#test.py">test.py</a></li>
-	<li><a href="#evaluate.py">evaluate.py</a></li>
-	<li><a href="#sort.py">sort.py</a></li>
-	<li><a href="#plot.py">plot.py</a></li>
+        <li><a href="#evaluate.py">evaluate.py</a></li>
+        <li><a href="#sort.py">sort.py</a></li>
+        <li><a href="#plot.py">plot.py</a></li>
         <li><a href="#results.py">results.py</a></li>
       </ul>
     <li><a href="#contact">Contact</a></li>
@@ -160,7 +160,7 @@ Generated data has the following file name format:
 <scenario> <algorithm> <politic> <agent id>.csv/zip
 ```
 
-### train.py
+### train
 
 The script [train.py](Code/train.py) trains 30 agents with the desired politic and algorithm in a specific scenario. Modify these variables in it's main to choose the the characteristics of the training, which and how many agents to train.
 
