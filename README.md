@@ -37,7 +37,15 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-	<li><a href="#contact">Contact</a></li>
+      <ul>
+        <li><a href="#train.py">train.py</a></li>
+        <li><a href="#test.py">test.py</a></li>
+	<li><a href="#evaluate.py">evaluate.py</a></li>
+	<li><a href="#sort.py">sort.py</a></li>
+	<li><a href="#plot.py">plot.py</a></li>
+        <li><a href="#results.py">results.py</a></li>
+      </ul>
+    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
