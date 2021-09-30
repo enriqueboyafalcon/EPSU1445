@@ -40,12 +40,12 @@
     </li>
     <li><a href="#usage">Usage</a></li>
       <ul>
-        <li><a href="#train">train</a></li>
-        <li><a href="#test">test</a></li>
-        <li><a href="#evaluate">evaluate</a></li>
-        <li><a href="#sort">sort</a></li>
-        <li><a href="#plot">plot</a></li>
-        <li><a href="#results">results</a></li>
+        <li><a href="#train">Train</a></li>
+        <li><a href="#test">Test</a></li>
+        <li><a href="#evaluate">Evaluate</a></li>
+        <li><a href="#sort">Sort</a></li>
+        <li><a href="#plot">Plot</a></li>
+        <li><a href="#results">Results</a></li>
       </ul>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -162,7 +162,7 @@ Generated data has the following file name format:
 <scenario> <algorithm> <politic> <agent id>.csv/zip
 ```
 
-### train
+### Train
 
 The script [train.py](Code/train.py) trains 30 agents with the desired politic and algorithm in a specific scenario. Modify these variables in it's main to choose the the characteristics of the training, which and how many agents to train.
 
@@ -210,7 +210,7 @@ agent_02 has been trained.
 All agents have been trained
 ```
 
-### test
+### Test
 
 The script [test.py](Code/test.py) loads a given trained model and runs it for the desired ammount of episodes, with or without rendering. 
 
@@ -222,21 +222,21 @@ python3.7 test.py -p Data/Models/MyScenarios_Penalty\ PPO\ scoring\ 01.zip -e 10
 
 Use -h to see option list.
 
-### evaluate
+### Evaluate
 
 The script [evaluate.py](Code/evaluate.py) loads trained models 1-30 of a specific scenario and writes down their accuracies after 1000 episodes. Output is a csv file, stored in Data/Results.
 
-### sort
+### Sort
 
 The script [sort.py](Code/sort.py) generates a copy the of output of evaluate.py where the values are ordered, for better readability and easier interpretation.
 
-### plot
+### Plot
 
 The script [plot.py](Code/plot.py) generates a series of graphs that visualize the output of evaluate.py and the logs from the training process. For example:
 
 ![Penalti PPO Training logs](https://github.com/enriqueboyafalcon/EPSU1445/blob/master/Data/Graphs/plotall%2Bminmaxavg%20Penalty%20PPO%20scoring.png)
 
-### results
+### Results
 
 The script [results.py](Code/results.py) performs a series of statistical tests in order to formally compare and draw conclusions from the output of evaluate.py.
 
